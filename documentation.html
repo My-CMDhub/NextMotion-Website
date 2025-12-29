@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolarSaver - Documentation</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; mx-auto: 0 auto; padding: 40px 20px; background: #f9f9f9; }
+        .container { background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        h1 { border-bottom: 2px solid #ff5722; padding-bottom: 10px; color: #111; }
+        h2 { margin-top: 30px; color: #222; }
+        code { background: #f0f0f0; padding: 2px 5px; border-radius: 4px; font-family: monospace; color: #d63200; }
+        pre { background: #1e1e1e; color: #fff; padding: 15px; border-radius: 6px; overflow-x: auto; }
+        pre code { background: transparent; color: #fff; }
+        .note { background: #fff3e0; border-left: 4px solid #ff5722; padding: 15px; margin: 20px 0; }
+        a { color: #ff5722; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>SolarSaver Template Documentation</h1>
+    <p>Thank you for purchasing <strong>SolarSaver</strong>. This guide will help you get your new landing page up and running in minutes.</p>
+
+    <h2>1. Prerequisites</h2>
+    <ul>
+        <li><strong>Node.js:</strong> Version 18.17 or higher (Required for Next.js 15).</li>
+        <li><strong>Terminal:</strong> Basic command line knowledge.</li>
+    </ul>
+
+    <h2>2. Installation</h2>
+    <p>Unzip the <code>SolarSaver-Source.zip</code> file and open your terminal in that folder.</p>
+    <pre><code># Install dependencies
+npm install</code></pre>
+
+    <h2>3. Running Locally</h2>
+    <p>Start the development server to see your changes correctly:</p>
+    <pre><code>npm run dev</code></pre>
+    <p>Open <strong>http://localhost:3000</strong> in your browser.</p>
+
+    <h2>4. Customization</h2>
+
+    <h3>Changing Text & Images</h3>
+    <p>Most content is located in the <code>app/page.tsx</code> file or broken down into components in <code>components/sections/</code>.</p>
+    
+    <h3>Colors & Styling</h3>
+    <p>We use <strong>Tailwind CSS v4</strong>. Global styles and CSS variables are located in <code>app/globals.css</code>.</p>
+
+    <div class="note">
+        <strong>SEO Note:</strong> Remember to update <code>app/sitemap.ts</code> and <code>app/manifest.ts</code> with your actual domain name before deploying.
+    </div>
+
+    <h2>5. Deployment</h2>
+    <p>This project is optimized for deployment on <strong>Vercel</strong> or similar platforms.</p>
+    <pre><code>npm run build
+npm start</code></pre>
+
+    <h2>Support</h2>
+    <p>If you have questions beyond this documentation, please contact us via our Profile Page.</p>
+    
+    <p style="margin-top: 40px; font-size: 14px; color: #666;">&copy; 2025 SolarSaver Template. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
