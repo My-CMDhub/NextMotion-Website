@@ -64,3 +64,4 @@ A high-performance, premium landing page template featuring advanced Framer Moti
 - Built with [Next.js](https://nextjs.org)
 - Animations by [Framer Motion](https://www.framer.com/motion/)
 - Icons by [Lucide](https://lucide.dev)
+- pre-built animation components by [Reactbit](https://reactbits.dev)
